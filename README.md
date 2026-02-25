@@ -9,8 +9,10 @@ Techniques: Customer segmentation, regression modelling, clustering (K-Means), s
 
 Turtle Games collected large volumes of customer transaction and review data but lacked clear insight into:
 * Which customers drive the most value
-* How loyalty points accumulate across different customer groups
+* How customers engage with and accumulate loyalty points
+* The process required to segment customers for targeted marketing
 * Where marketing efforts should focus to maximise engagement and retention
+* The use of customer reviews to inform marketing campaigns
 
 ### 📁 Project Overview
 

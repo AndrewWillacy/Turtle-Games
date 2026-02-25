@@ -1,6 +1,6 @@
 ## 🐢 Turtle Games: Customer Segmentation and Loyalty Modelling
 
-Author: Andrew Willacy
+Author: Andrew Willacy  
 Date: October 2025
 
 Tools: Python, R, Jupyter Notebook, tidyverse, ggplot2, scikit-learn, NLP

@@ -1,10 +1,10 @@
-### 🐢 Turtle Games — Customer Segmentation and Loyalty Modelling
+### 🐢 Turtle Games: Customer Segmentation and Loyalty Modelling
 
 Author: Andrew Willacy
 Date: October 2025
 Tools: Python, R, Jupyter Notebook, tidyverse, ggplot2, scikit-learn, NLP
 
-📁 Project Overview
+## 📁 Project Overview
 
 Turtle Games is a global manufacturer and retailer of games, books, toys, and video games.
 The company collects customer review and transaction data but lacks a clear understanding of how customers accumulate loyalty points, how spending behaviour varies across groups, and how analytics can support targeted marketing strategies.

@@ -1,4 +1,4 @@
-🐢 Turtle Games — Customer Loyalty & Advanced Analytics
+### 🐢 Turtle Games — Customer Segmentation and Loyalty Modelling
 
 Author: Andrew Willacy
 Date: October 2025

@@ -15,6 +15,50 @@ Turtle Games  is a global manufacturer and retailer of games, books, toys, and v
 * The use of customer reviews to inform marketing campaigns
 
 ### 📁 Analytical Approach
+A full end-to-end analytics workflow was implemented:
+
+Data preparation
+
+Cleaned and validated customer and review datasets (2,000 reviews, 782 customers)
+
+Removed duplicates, standardised formats, and validated demographic and behavioural fields
+
+Created derived variables including loyalty tiers and customer segments
+
+Exploratory analysis
+
+Analysed relationships between income, spending score, and loyalty accumulation
+
+Identified outliers and behavioural trends across demographic groups
+
+Predictive modelling
+
+Built regression models to predict loyalty points
+
+Achieved ~84% explained variance (R² ≈ 0.84)
+
+Compared linear, spline, and tree-based models to balance performance and interpretability
+
+Customer segmentation
+
+Applied K-Means clustering to identify distinct behavioural segments
+
+Defined clear customer groups including:
+
+High-income, high-spend (VIP segment)
+
+High-income, low-spend (high growth opportunity)
+
+Mid-income, mid-spend (core revenue base)
+
+Sentiment analysis
+
+Analysed review text using NLP techniques
+
+Identified operational pain points impacting customer satisfaction
+
+
+
 
 🎯 Objectives
 

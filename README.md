@@ -68,6 +68,10 @@ A full end-to-end analytics workflow was implemented:
 
   * Mid-income, mid-spend (core revenue base)
 
+<img width="1352" height="753" alt="Screenshot 2026-02-28 202552" src="https://github.com/user-attachments/assets/8db621ec-5efa-49a0-a6aa-bd3a0e2b45df" />
+
+
+
 #### Sentiment analysis
 
 * Analysed review text using NLP techniques

@@ -16,6 +16,20 @@ Turtle Games  is a global manufacturer and retailer of games, books, toys, and v
 
 This analysis aims to resolve that.
 
+### 📊 Data Sources
+
+The cleaned dataset (turtle_reviews_clean.csv) contains:
+
+* 2,000 reviews from 782 unique customers
+
+* Demographic features: age, gender, education, income
+
+* Behavioural features: spending score, loyalty points
+
+* Text data: customer review and summary fields
+
+The data was supplied in raw format and required cleaning, validation, and restructuring prior to analysis.
+
 ### 📁 Analytical Approach
 A full end-to-end analytics workflow was implemented:
 

@@ -3,25 +3,18 @@
 Author: Andrew Willacy  
 Date: October 2025  
 Tools: Python, R, Jupyter Notebook, tidyverse, ggplot2, scikit-learn, NLP  
-Techniques: Customer segmentation, regression modelling, clustering (K-Means), sentiment analysis
+Techniques: Customer segmentation, regression modelling, predoctive modelling, clustering (K-Means), sentiment analysis
 
 ### Business Problem
 
-Turtle Games collected large volumes of customer transaction and review data but lacked clear insight into:
+Turtle Games  is a global manufacturer and retailer of games, books, toys, and video games. They collected large volumes of customer transaction and review data but lacked clear insight into:
 * Which customers drive the most value
 * How customers engage with and accumulate loyalty points
 * The process required to segment customers for targeted marketing
 * Where marketing efforts should focus to maximise engagement and retention
 * The use of customer reviews to inform marketing campaigns
 
-### 📁 Project Overview
-
-Turtle Games is a global manufacturer and retailer of games, books, toys, and video games.
-The company collects customer review and transaction data but lacks a clear understanding of how customers accumulate loyalty points, how spending behaviour varies across groups, and how analytics can support targeted marketing strategies.
-
-This project applies exploratory data analysis, predictive modelling, clustering, and sentiment analysis to uncover patterns in customer behaviour and translate them into actionable business insights.
-
-The analysis demonstrates how advanced analytics can support customer segmentation, loyalty optimisation, and strategic decision-making.
+### 📁 Analytical Approach
 
 🎯 Objectives
 

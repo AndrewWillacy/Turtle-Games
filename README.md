@@ -52,9 +52,9 @@ A full end-to-end analytics workflow was implemented:
 
 * Built regression models to predict loyalty points
 
-* Achieved ~84% explained variance (R² ≈ 0.84)
-
-* Compared linear, spline, and tree-based models to balance performance and interpretability
+* Achieved ~84% explained variance (R² ≈ 0.84).
+* 
+* Compared linear, spline, and tree-based models to balance performance and interpretability. Spline models marginally improve fit but add complexity with limited business benefit
 
 #### Customer segmentation
 
@@ -76,21 +76,21 @@ A full end-to-end analytics workflow was implemented:
 
 ### 🔍 Key Findings
 
-Customer value is highly concentrated
+#### 📌 Customer Behaviour & Loyalty:
 
 Top ~13% of customers hold disproportionately high loyalty points
 
 Spending score and income were the strongest predictors of loyalty
 
-Clear opportunity segment identified
+#### 📌 Clear opportunity segment identified
 
 High-income customers with low spend represent strong growth potential
 
-Segmentation enables targeted strategy
+#### 📌 Segmentation enables targeted strategy
 
 Distinct customer clusters allow tailored engagement and loyalty strategies
 
-Sentiment analysis revealed operational improvement areas
+#### 📌 Sentiment analysis revealed operational improvement areas
 
 Negative sentiment highlighted issues such as fulfilment and delivery reliability
 

@@ -17,45 +17,45 @@ Turtle Games  is a global manufacturer and retailer of games, books, toys, and v
 ### 📁 Analytical Approach
 A full end-to-end analytics workflow was implemented:
 
-Data preparation
+#### Data preparation
 
-Cleaned and validated customer and review datasets (2,000 reviews, 782 customers)
+* Cleaned and validated customer and review datasets (2,000 reviews, 782 customers)
 
-Removed duplicates, standardised formats, and validated demographic and behavioural fields
+* Removed duplicates, standardised formats, and validated demographic and behavioural fields
 
-Created derived variables including loyalty tiers and customer segments
+* Created derived variables including loyalty tiers and customer segments
 
-Exploratory analysis
+#### Exploratory analysis
 
-Analysed relationships between income, spending score, and loyalty accumulation
+* Analysed relationships between income, spending score, and loyalty accumulation
 
-Identified outliers and behavioural trends across demographic groups
+* Identified outliers and behavioural trends across demographic groups
 
-Predictive modelling
+#### Predictive modelling
 
-Built regression models to predict loyalty points
+* Built regression models to predict loyalty points
 
-Achieved ~84% explained variance (R² ≈ 0.84)
+*Achieved ~84% explained variance (R² ≈ 0.84)
 
-Compared linear, spline, and tree-based models to balance performance and interpretability
+*Compared linear, spline, and tree-based models to balance performance and interpretability
 
-Customer segmentation
+#### Customer segmentation
 
-Applied K-Means clustering to identify distinct behavioural segments
+* Applied K-Means clustering to identify distinct behavioural segments
 
-Defined clear customer groups including:
+* Defined clear customer groups including:
 
-High-income, high-spend (VIP segment)
+* High-income, high-spend (VIP segment)
 
-High-income, low-spend (high growth opportunity)
+* High-income, low-spend (high growth opportunity)
 
-Mid-income, mid-spend (core revenue base)
+* Mid-income, mid-spend (core revenue base)
 
-Sentiment analysis
+#### Sentiment analysis
 
-Analysed review text using NLP techniques
+* Analysed review text using NLP techniques
 
-Identified operational pain points impacting customer satisfaction
+* Identified operational pain points impacting customer satisfaction
 
 
 

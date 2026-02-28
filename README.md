@@ -30,7 +30,8 @@ The cleaned dataset (turtle_reviews_clean.csv) contains:
 
 The data was supplied in raw format and required cleaning, validation, and restructuring prior to analysis.
 
-### 📁 Analytical Approach
+### 🧮 Analytical Approach
+
 A full end-to-end analytics workflow was implemented:
 
 #### Data preparation
@@ -73,86 +74,27 @@ A full end-to-end analytics workflow was implemented:
 
 * Identified operational pain points impacting customer satisfaction
 
+### 🔍 Key Findings
+
+Customer value is highly concentrated
+
+Top ~13% of customers hold disproportionately high loyalty points
+
+Spending score and income were the strongest predictors of loyalty
+
+Clear opportunity segment identified
+
+High-income customers with low spend represent strong growth potential
+
+Segmentation enables targeted strategy
+
+Distinct customer clusters allow tailored engagement and loyalty strategies
+
+Sentiment analysis revealed operational improvement areas
+
+Negative sentiment highlighted issues such as fulfilment and delivery reliability
 
 
-
-🎯 Objectives
-
-Understand customer demographics and spending behaviour
-
-Analyse how loyalty points are accumulated
-
-Identify and profile distinct customer segments
-
-Predict loyalty points using statistical and machine-learning models
-
-Analyse customer sentiment from reviews
-
-Provide data-driven recommendations to improve customer value
-
-📄 Deliverables
-File	Description
-Willacy_Andrew_DA301_Report.pdf	Full technical report covering methodology, analysis, findings, and recommendations
-Willacy_Andrew_DA301_Assignment_Notebook.ipynb	Reproducible Python analysis (EDA, modelling, clustering, NLP)
-Willacy_Andrew_DA301_Assignment.R	Exploratory analysis and regression modelling conducted in R
-📊 Data Sources
-
-The cleaned dataset (turtle_reviews_clean.csv) contains:
-
-2,000 reviews from 782 unique customers
-
-Demographic features: age, gender, education, income
-
-Behavioural features: spending score, loyalty points
-
-Text data: customer review and summary fields
-
-The data was supplied in raw format and required cleaning, validation, and restructuring prior to analysis.
-
-🧹 Data Cleaning & Preparation
-
-Key steps included:
-
-Removing duplicates and irrelevant fields
-
-Standardising variable names and formats
-
-Handling missing values and validating ranges
-
-Creating derived fields (e.g. loyalty categories, age bands)
-
-Separating unique customers from repeat reviews where appropriate
-
-The final dataset was validated for consistency before modelling.
-
-🧮 Analytical Approach
-
-A multi-method analytical approach was applied:
-
-Exploratory Data Analysis (EDA):
-Distributions, correlations, outliers, and demographic breakdowns
-
-Regression Modelling:
-
-Multiple Linear Regression
-
-Spline Regression
-
-Model diagnostics (Shapiro–Wilk, Breusch–Pagan, robust standard errors)
-
-Train/test evaluation using RMSE, MAE, and R²
-
-Tree-Based Models:
-Decision Trees and Random Forests to assess non-linear effects and feature importance
-
-Clustering:
-K-Means clustering (Elbow & Silhouette methods) to identify customer segments
-
-Natural Language Processing (NLP):
-Sentiment analysis of customer reviews and word-frequency exploration
-
-R Analysis:
-Parallel exploratory and regression analysis to validate findings and compare methodologies
 
 🔍 Key Findings
 📌 Customer Behaviour & Loyalty

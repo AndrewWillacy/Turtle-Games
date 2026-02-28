@@ -35,9 +35,9 @@ A full end-to-end analytics workflow was implemented:
 
 * Built regression models to predict loyalty points
 
-*Achieved ~84% explained variance (R² ≈ 0.84)
+* Achieved ~84% explained variance (R² ≈ 0.84)
 
-*Compared linear, spline, and tree-based models to balance performance and interpretability
+* Compared linear, spline, and tree-based models to balance performance and interpretability
 
 #### Customer segmentation
 

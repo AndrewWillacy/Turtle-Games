@@ -53,7 +53,7 @@ A full end-to-end analytics workflow was implemented:
 * Built regression models to predict loyalty points
 
 * Achieved ~84% explained variance (R² ≈ 0.84).
-* 
+  
 * Compared linear, spline, and tree-based models to balance performance and interpretability. Spline models marginally improve fit but add complexity with limited business benefit
 
 #### Customer segmentation
@@ -62,11 +62,11 @@ A full end-to-end analytics workflow was implemented:
 
 * Defined clear customer groups including:
 
-* High-income, high-spend (VIP segment)
+  * High-income, high-spend (VIP segment)
 
-* High-income, low-spend (high growth opportunity)
+  * High-income, low-spend (high growth opportunity)
 
-* Mid-income, mid-spend (core revenue base)
+  * Mid-income, mid-spend (core revenue base)
 
 #### Sentiment analysis
 

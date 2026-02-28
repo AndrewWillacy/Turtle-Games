@@ -94,72 +94,36 @@ Distinct customer clusters allow tailored engagement and loyalty strategies
 
 Negative sentiment highlighted issues such as fulfilment and delivery reliability
 
+### 💡 Business Recommendations
 
+* Target high-income, low-spend customers with tailored engagement campaigns
 
-🔍 Key Findings
-📌 Customer Behaviour & Loyalty
+* Introduce VIP loyalty tiers for high-value customers
 
-Loyalty points are right-skewed, with most customers holding fewer than 2,000 points
+* Use segmentation to personalise offers and increase retention
 
-Approximately 13% of customers are high-value outliers (≥3,200 points)
+* Monitor sentiment trends to identify operational improvement opportunities
 
-Spending score and income are the strongest predictors of loyalty points
+* Deploy predictive models to forecast customer value and guide marketing investment
 
-Gender has minimal impact on loyalty outcomes
+### 🚀 Next Steps
 
-📌 Predictive Modelling
+* Customer Segmentation: Refine clustering with additional behavioural features such as tenure, purchase frequency, and seasonality.
 
-A linear regression model explains ~84% of the variance in loyalty points
+* Predictive Modelling: Extend modelling to predict churn risk and future customer lifetime value.
 
-Spline models marginally improve fit but add complexity with limited business benefit
+* Loyalty Programme Optimisation: Simulate alternative loyalty point structures and reward thresholds.
 
-The linear model offers the best balance of performance and interpretability
+* Product-Level Analysis: Link reviews and sentiment to specific product categories to identify strengths and weaknesses.
 
-📌 Customer Segmentation
+* Automated Pipelines: Build a reproducible Python/R pipeline for data ingestion, cleaning, modelling, and reporting.
 
-Distinct customer clusters exist based on income, spending score, and age
+* Dashboard Development: Create interactive dashboards to monitor loyalty metrics, segments, and sentiment trends.
 
-One large mid-income / mid-spend segment accounts for ~40% of customers
+### Technical Deliverables
 
-High-income, low-spend customers represent a key activation opportunity
+* Python notebook: full data analysis, modelling, clustering, NLP
 
-High-spend, high-income customers form a clear VIP segment
+* R analysis: regression modelling and statistical validation
 
-📌 Sentiment Analysis
-
-Customer sentiment is predominantly positive
-
-Negative sentiment highlights operational issues such as missing items and delivery problems
-
-Review text provides valuable qualitative insight not captured by numeric data alone
-
-💡 Recommendations
-
-Activate High-Potential Customers
-Target high-income, low-spend customers with awareness and engagement campaigns.
-
-Strengthen Mid-to-High Loyalty Segments
-Use personalised bundles, cross-sell offers, and milestone rewards to increase frequency and basket size.
-
-Develop a VIP Loyalty Track
-Customers with ≥3,200 loyalty points should receive exclusive benefits and early access incentives.
-
-Address Operational Pain Points
-Use sentiment insights to reduce issues linked to negative reviews.
-
-Monitor Model Performance Over Time
-Track predictive accuracy and sentiment trends at segment level.
-
-🚀 Next Steps
-
-Customer Segmentation: Refine clustering with additional behavioural features such as tenure, purchase frequency, and seasonality.
-
-Predictive Modelling: Extend modelling to predict churn risk and future customer lifetime value.
-
-Loyalty Programme Optimisation: Simulate alternative loyalty point structures and reward thresholds.
-
-Product-Level Analysis: Link reviews and sentiment to specific product categories to identify strengths and weaknesses.
-
-Automated Pipelines: Build a reproducible Python/R pipeline for data ingestion, cleaning, modelling, and reporting.
-
-Dashboard Development: Create interactive dashboards to monitor loyalty metrics, segments, and sentiment trends.
+* Written report: methodology, findings, and recommendations

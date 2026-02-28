@@ -14,6 +14,8 @@ Turtle Games  is a global manufacturer and retailer of games, books, toys, and v
 * Where marketing efforts should focus to maximise engagement and retention
 * The use of customer reviews to inform marketing campaigns
 
+This analysis aims to resolve that.
+
 ### 📁 Analytical Approach
 A full end-to-end analytics workflow was implemented:
 

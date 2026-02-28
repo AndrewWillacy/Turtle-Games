@@ -68,6 +68,11 @@ A full end-to-end analytics workflow was implemented:
 
   * Mid-income, mid-spend (core revenue base)
 
+<img width="500" height="300" alt="Screenshot 2026-02-28 203320" src="https://github.com/user-attachments/assets/3518d258-12fc-4ac4-914b-c914ce97626d" />
+<img width="600" height="150" alt="Screenshot 2026-02-28 203343" src="https://github.com/user-attachments/assets/ef525ff5-fb45-4a32-b713-ffe7a3ff5829" />
+
+* Applied K-Means clustering to identify distinct behavioural segments
+
 <img width="600" height="330" alt="Screenshot 2026-02-28 202552" src="https://github.com/user-attachments/assets/8db621ec-5efa-49a0-a6aa-bd3a0e2b45df" />
 
 

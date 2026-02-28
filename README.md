@@ -5,7 +5,7 @@ Date: October 2025
 Tools: Python, R, Jupyter Notebook, tidyverse, ggplot2, scikit-learn, NLP  
 Techniques: Customer segmentation, regression modelling, predoctive modelling, clustering (K-Means), sentiment analysis
 
-### Business Problem
+### 🚩 Business Problem
 
 Turtle Games  is a global manufacturer and retailer of games, books, toys, and video games. They collected large volumes of customer transaction and review data but lacked clear insight into:
 * Which customers drive the most value
@@ -120,7 +120,7 @@ Negative sentiment highlighted issues such as fulfilment and delivery reliabilit
 
 * Dashboard Development: Create interactive dashboards to monitor loyalty metrics, segments, and sentiment trends.
 
-### Technical Deliverables
+### 🚚 Technical Deliverables
 
 * Python notebook: full data analysis, modelling, clustering, NLP
 

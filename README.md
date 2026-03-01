@@ -56,8 +56,6 @@ A full end-to-end analytics workflow was implemented:
 * Achieved ~84% explained variance (R² ≈ 0.84).
 <img width="400" height="210" alt="Screenshot 2026-03-01 125429" src="https://github.com/user-attachments/assets/b506b4bc-57f3-4e59-8a84-5699365d79cb" />
 
-
-  
 * Compared linear, spline, and tree-based models to balance performance and interpretability. Spline models marginally improve fit but add complexity with limited business benefit
 
 #### Customer segmentation
@@ -86,6 +84,9 @@ A full end-to-end analytics workflow was implemented:
 * Analysed review text using NLP techniques
 
 * Identified operational pain points impacting customer satisfaction
+
+<img width="600" height="320" alt="Screenshot 2026-03-01 125520" src="https://github.com/user-attachments/assets/307b9d0c-65fd-421a-bbe5-e3b4e9c8a941" />
+
 
 ### 🔍 Key Findings
 

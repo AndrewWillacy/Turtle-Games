@@ -51,7 +51,7 @@ A full end-to-end analytics workflow was implemented:
 #### Predictive modelling
 
 * Built regression models to predict loyalty points
-<img width="700" height="350" alt="Screenshot 2026-03-01 130521" src="https://github.com/user-attachments/assets/38f1a422-40ed-4ad9-ae8a-f27bf095b182" />
+<img width="500" height="350" alt="Screenshot 2026-03-01 130521" src="https://github.com/user-attachments/assets/38f1a422-40ed-4ad9-ae8a-f27bf095b182" />
 
 * Achieved ~84% explained variance (R² ≈ 0.84).
 <img width="400" height="210" alt="Screenshot 2026-03-01 125429" src="https://github.com/user-attachments/assets/b506b4bc-57f3-4e59-8a84-5699365d79cb" />

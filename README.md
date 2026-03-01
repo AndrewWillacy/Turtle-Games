@@ -56,6 +56,8 @@ A full end-to-end analytics workflow was implemented:
 
 
 * Achieved ~84% explained variance (R² ≈ 0.84).
+<img width="996" height="468" alt="Screenshot 2025-06-21 143939" src="https://github.com/user-attachments/assets/1859a856-ee4f-4784-8afe-aef7e432e72b" />
+
   
 * Compared linear, spline, and tree-based models to balance performance and interpretability. Spline models marginally improve fit but add complexity with limited business benefit
 

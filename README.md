@@ -31,7 +31,7 @@ The final recommendations focused on targeted loyalty rewards, VIP treatment for
 
 ## Business Problem
 
-A global games and entertainment retailer wanted to improve overall sales performance by understanding customer loyalty behaviour, customer segmentation opportunities, and the business value of customer-generated review text.
+A global games and entertainment retailer wanted to improve overall sales performance by understanding customer base more deeply, specifically loyalty behaviour, customer segmentation opportunities, and the business value of customer-generated review text.
 
 The core business questions were:
 

@@ -28,6 +28,14 @@ The final recommendations focused on targeted loyalty rewards, VIP treatment for
 
 ---
 
+
+## Executive Summary
+
+This project analyses customer loyalty, behaviour, and sentiment for a global games retailer across 2,000 customer reviews from 782 unique customers. Using Python and R in parallel, the analysis identifies the key drivers of loyalty point accumulation, segments customers into distinct behavioural profiles, and applies NLP sentiment analysis to customer review text to surface satisfaction drivers and pain points.
+
+**Key result:** Loyalty points are strongly and predictably driven by spending score and income. A linear regression model (R² = 0.839–0.844) offers robust, operationally usable predictions. Five distinct customer segments were identified, ranging from Affluent High Spenders to Low Income Low Spenders — each with different engagement profiles and commercial implications. Sentiment from reviews is predominantly positive, with family-friendly themes dominating; shipping and missing product pieces are the most frequently flagged pain points.
+
+---
 ## Business Problem
 
 A global games and entertainment retailer wanted to improve overall sales performance by understanding customer loyalty behaviour, customer segmentation opportunities, and the business value of customer-generated review text.

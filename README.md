@@ -1,4 +1,4 @@
-# Customer Loyalty & Predictive Segmentation Analysis
+# Customer Loyalty & Segmentation Analysis
 
 **Customer Analytics & Predictive Modelling Project | 2025**
 

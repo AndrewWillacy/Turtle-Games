@@ -16,9 +16,10 @@ The analysis combines exploratory data analysis, regression modelling, decision 
 
 Key findings revealed that:
 
-* Loyalty points were strongly associated with spending score and income
+* Loyalty points are strongly and predictably driven by spending score and income
 * The loyalty points distribution was right-skewed, with a distinct high-value customer group
 * Approximately 13% of customers were high-value loyalty outliers
+* Five distinct customer segments were identified, ranging from Affluent High Spenders to Low Income Low Spenders
 * One large mid-income / mid-spend segment accounted for around 40% of customers
 * Review sentiment was generally positive, with customers frequently referencing family-friendly value, product quality, and ease of use
 * Negative reviews highlighted operational issues such as missing pieces and shipping-related problems
@@ -28,14 +29,6 @@ The final recommendations focused on targeted loyalty rewards, VIP treatment for
 
 ---
 
-
-## Executive Summary
-
-This project analyses customer loyalty, behaviour, and sentiment for a global games retailer across 2,000 customer reviews from 782 unique customers. Using Python and R in parallel, the analysis identifies the key drivers of loyalty point accumulation, segments customers into distinct behavioural profiles, and applies NLP sentiment analysis to customer review text to surface satisfaction drivers and pain points.
-
-**Key result:** Loyalty points are strongly and predictably driven by spending score and income. A linear regression model (R² = 0.839–0.844) offers robust, operationally usable predictions. Five distinct customer segments were identified, ranging from Affluent High Spenders to Low Income Low Spenders — each with different engagement profiles and commercial implications. Sentiment from reviews is predominantly positive, with family-friendly themes dominating; shipping and missing product pieces are the most frequently flagged pain points.
-
----
 ## Business Problem
 
 A global games and entertainment retailer wanted to improve overall sales performance by understanding customer loyalty behaviour, customer segmentation opportunities, and the business value of customer-generated review text.
@@ -55,6 +48,14 @@ The project was designed to support stakeholders responsible for:
 * Customer value management
 * Product and service improvement
 * Sales performance optimisation
+
+---
+A global games manufacturer and retailer wanted to improve overall sales performance by understanding its customer base more deeply. Four questions drove the analysis:
+
+> **1. How do customers engage with and accumulate loyalty points?**
+> **2. How can customers be segmented into groups for targeted marketing?**
+> **3. How can customer review text inform marketing campaigns and business improvements?**
+> **4. Can descriptive statistics justify the suitability of loyalty data for predictive modelling?**
 
 ---
 

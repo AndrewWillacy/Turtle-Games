@@ -50,14 +50,6 @@ The project was designed to support stakeholders responsible for:
 * Sales performance optimisation
 
 ---
-A global games manufacturer and retailer wanted to improve overall sales performance by understanding its customer base more deeply. Four questions drove the analysis:
-
-> **1. How do customers engage with and accumulate loyalty points?**
-> **2. How can customers be segmented into groups for targeted marketing?**
-> **3. How can customer review text inform marketing campaigns and business improvements?**
-> **4. Can descriptive statistics justify the suitability of loyalty data for predictive modelling?**
-
----
 
 ## Data Sources
 

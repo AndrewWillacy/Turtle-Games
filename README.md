@@ -58,7 +58,7 @@ The project was designed to support stakeholders responsible for:
 | **Customer Reviews Dataset** | Customer age, gender, income, education, spending score, loyalty points, review text and summaries | Loyalty modelling, segmentation, sentiment analysis |
 | **Metadata File**            | Dataset structure, field descriptions and data quality reference                                   | Data validation and interpretation                  |
 
-**Dataset structure:** 2,000 rows × 9 columns after cleaning. Importantly, the dataset contains 2,000 reviews from only 782 unique customers — customers who wrote multiple reviews. Demographic analysis was performed on unique customers only (782 rows) while predictive modelling used the full 2,000-row dataset.
+**Dataset structure:** 2,000 rows × 9 columns after cleaning. Importantly, the dataset contains 2,000 reviews from only 782 unique customers - customers who wrote multiple reviews. Demographic analysis was performed on unique customers only (782 rows) while predictive modelling used the full 2,000-row dataset.
 
 The cleaned dataset contained:
 

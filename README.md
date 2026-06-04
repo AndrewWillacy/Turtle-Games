@@ -58,6 +58,8 @@ The project was designed to support stakeholders responsible for:
 | **Customer Reviews Dataset** | Customer age, gender, income, education, spending score, loyalty points, review text and summaries | Loyalty modelling, segmentation, sentiment analysis |
 | **Metadata File**            | Dataset structure, field descriptions and data quality reference                                   | Data validation and interpretation                  |
 
+**Dataset structure:** 2,000 rows × 9 columns after cleaning. Importantly, the dataset contains 2,000 reviews from only 782 unique customers — customers who wrote multiple reviews. Demographic analysis was performed on unique customers only (782 rows) while predictive modelling used the full 2,000-row dataset.
+
 The cleaned dataset contained:
 
 * 2,000 review records
@@ -97,35 +99,10 @@ Key fields included:
 
 **Skills demonstrated:**
 
-Customer segmentation · Predictive modelling · Regression analysis · Decision trees · K-Means clustering · NLP sentiment analysis · R statistical modelling · Python data analysis · Model diagnostics · Customer value analysis · Business recommendation development
-
----
----
-
-## Data Source
-
-| File | Contents |
-|------|----------|
-| `turtle_reviews.csv` | Customer gender, age, income, spending score, loyalty points, education, language, platform, product reviews and summaries |
-
-**Dataset structure:** 2,000 rows × 9 columns after cleaning. Importantly, the dataset contains 2,000 reviews from only 782 unique customers — customers who wrote multiple reviews. Demographic analysis was performed on unique customers only (782 rows) while predictive modelling used the full 2,000-row dataset.
+Dual-language analysis (Python + R) · Customer segmentation · Predictive modelling · Regression analysis · Decision trees · K-Means clustering · NLP sentiment analysis · R statistical modelling · Python data analysis · Model diagnostics · Customer value analysis · Business recommendation development · Stakeholder-focused reporting
 
 ---
 
-## Tools & Skills Used
-
-| Category | Tools / Libraries |
-|----------|------------------|
-| **Languages** | Python 3, R |
-| **Python Libraries** | pandas, NumPy, Matplotlib, Seaborn, scikit-learn, NLTK (TextBlob/VADER) |
-| **R Libraries** | tidyverse, ggplot2, moments, lmtest, sandwich, car |
-| **ML Models** | Linear Regression, Decision Trees (pruned), Random Forest, K-Means Clustering |
-| **NLP** | Sentiment polarity scoring, tokenisation, stop word removal, word cloud generation |
-| **Environment** | Jupyter Notebook (Python), R Script |
-
-**Skills demonstrated:** Dual-language analysis (Python + R) · Regression modelling with diagnostic validation · Decision tree training, evaluation, and pruning · K-means clustering with Elbow and Silhouette validation · NLP sentiment analysis on unstructured text · Customer segmentation · Model selection and justification · Stakeholder-focused reporting
-
----
 
 ## Analytical Approach
 

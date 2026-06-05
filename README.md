@@ -114,12 +114,14 @@ The original customer review dataset was cleaned and prepared for analysis.
 
 Key cleaning steps included:
 
-* Checked for missing values
-* Removed unnecessary columns such as language and platform
+* Checked for missing and 'null' values - None found
+* Removed unnecessary columns such as 'language' and 'platform' - analytically irrelevant
 * Renamed columns for clarity
+* 'Customer ID's assigned — a `customer_id` column was created to identify the 782 unique customers (customer view) within the 2,000-row review (review level)  data
+* Sanity checks performed on cleaned data before analysis
 * Validated data structure and consistency
 * Created a cleaned dataset for downstream analysis
-* Identified unique customers to distinguish between review-level and customer-level analysis
+* Unknown spending score calculation - flagged as a limitation — the formula for the spending score is not documented, making full interpretation of the variable difficult
 
 The final cleaned dataset contained:
 
@@ -128,21 +130,10 @@ The final cleaned dataset contained:
 | Full review-level dataset | 2,000 rows    | Modelling, sentiment, review behaviour         |
 | Unique customer view      | 782 customers | Customer demographic and segmentation analysis |
 
-A key analytical decision was to use the review-level dataset for modelling loyalty points, while using the unique-customer dataset for demographic exploration to avoid overstating repeated customer records.
+> A key analytical decision was to use the review-level dataset for modelling loyalty points, while using the unique-customer dataset for demographic exploration to avoid overstating repeated customer records.
 
 ---
-### 1. Data Cleaning & Preparation
 
-The raw dataset required cleaning before analysis:
-
-- **Null values** checked — none found
-- **Unnecessary columns removed** — `language` and `platform` dropped as analytically irrelevant
-- **Columns renamed** for clarity
-- **Customer IDs assigned** — a `customer_id` column was created to identify the 782 unique customers within the 2,000-row review dataset
-- **Sanity checks** performed on cleaned data before analysis
-- **Unknown spending score calculation** flagged as a limitation — the formula for the spending score is not documented, making full interpretation of the variable difficult
-
----
 ### 2. Exploratory Data Analysis
 
 Exploratory analysis was conducted to understand customer demographics, spending behaviour, loyalty point distribution, and potential predictors.

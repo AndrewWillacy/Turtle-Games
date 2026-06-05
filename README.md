@@ -131,7 +131,18 @@ The final cleaned dataset contained:
 A key analytical decision was to use the review-level dataset for modelling loyalty points, while using the unique-customer dataset for demographic exploration to avoid overstating repeated customer records.
 
 ---
+### 1. Data Cleaning & Preparation
 
+The raw dataset required cleaning before analysis:
+
+- **Null values** checked — none found
+- **Unnecessary columns removed** — `language` and `platform` dropped as analytically irrelevant
+- **Columns renamed** for clarity
+- **Customer IDs assigned** — a `customer_id` column was created to identify the 782 unique customers within the 2,000-row review dataset
+- **Sanity checks** performed on cleaned data before analysis
+- **Unknown spending score calculation** flagged as a limitation — the formula for the spending score is not documented, making full interpretation of the variable difficult
+
+---
 ### 2. Exploratory Data Analysis
 
 Exploratory analysis was conducted to understand customer demographics, spending behaviour, loyalty point distribution, and potential predictors.

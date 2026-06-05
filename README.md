@@ -121,7 +121,7 @@ Key cleaning steps included:
 * Sanity checks performed on cleaned data before analysis
 * Validated data structure and consistency
 * Created a cleaned dataset for downstream analysis
-* Unknown spending score calculation - flagged as a limitation — the formula for the spending score is not documented, making full interpretation of the variable difficult
+* Unknown spending score calculation - flagged as a limitation - the formula for the spending score is not documented, making full interpretation of the variable difficult
 
 The final cleaned dataset contained:
 
@@ -158,7 +158,18 @@ Key observations included:
 * Spending score showed a stronger relationship with loyalty points than gender or education
 
 ---
+### 2. Exploratory Data Analysis (Python)
 
+Analysis conducted on unique customers (782 rows):
+
+- **Gender:** 435 Female (56%), 347 Male (44%)
+- **Education:** Graduates largest group (45%), Basic smallest (2%)
+- **Age:** Majority aged 29–40; distribution is slightly right-skewed
+- **Income:** Multimodal distribution — peaks at <£20k, ~£40k, and ~£70k, suggesting distinct income segments in the customer base
+- **Loyalty points:** Right-skewed distribution; 266 customers (13%) are high-value outliers above 3,200 points
+
+**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly — a useful signal for model selection.
+---
 ### 3. Predictive Modelling
 
 Predictive modelling was used to assess whether loyalty points could be estimated from customer attributes.

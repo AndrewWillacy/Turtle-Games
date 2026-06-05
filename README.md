@@ -117,7 +117,7 @@ Key cleaning steps included:
 * Checked for missing and 'null' values - None found
 * Removed unnecessary columns such as 'language' and 'platform' - analytically irrelevant
 * Renamed columns for clarity
-* 'Customer ID's assigned — a `customer_id` column was created to identify the 782 unique customers (customer view) within the 2,000-row review (review level)  data
+* 'Customer ID's assigned - a `customer_id` column was created to identify the 782 unique customers (customer view) within the 2,000-row review (review level)  data
 * Sanity checks performed on cleaned data before analysis
 * Validated data structure and consistency
 * Created a cleaned dataset for downstream analysis

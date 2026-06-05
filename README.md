@@ -157,7 +157,7 @@ Analysis conducted on unique customers (782 rows) found:
 * Loyalty points were right-skewed, with a notable high-value customer tail
 * Spending score showed a stronger relationship with loyalty points than gender or education
 
->**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly — a useful signal for model selection.
+>**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly - a useful signal for model selection.
 ---
 
 ---

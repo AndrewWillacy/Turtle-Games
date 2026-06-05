@@ -134,7 +134,7 @@ The final cleaned dataset contained:
 
 ---
 
-### 2. Exploratory Data Analysis
+### 2. Exploratory Data Analysis (Excel & Python)
 
 Exploratory analysis was conducted to understand customer demographics, spending behaviour, loyalty point distribution, and potential predictors.
 
@@ -148,27 +148,18 @@ The analysis investigated:
 * Loyalty point distribution
 * Relationships between spending score, income, age, and loyalty points
 
-Key observations included:
+Analysis conducted on unique customers (782 rows) found:
 
-* Female customers represented approximately 56% of unique customers
-* Male customers represented approximately 44% of unique customers
-* Most customers were between 29 and 40 years old
-* Income distribution showed several peaks, including lower-income customers and higher-income customer groups
+* Gender: 435 Female (56%), 347 Male (44%)
+* Education: Graduates largest group (45%), Basic smallest (2%)
+* Age: Majority aged 29–40; distribution is slightly right-skewed
+* Income: Multimodal distribution — peaks at <£20k, ~£40k, and ~£70k, suggesting distinct income segments in the customer base
 * Loyalty points were right-skewed, with a notable high-value customer tail
 * Spending score showed a stronger relationship with loyalty points than gender or education
 
+>**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly — a useful signal for model selection.
 ---
-### 2. Exploratory Data Analysis (Python)
 
-Analysis conducted on unique customers (782 rows):
-
-- **Gender:** 435 Female (56%), 347 Male (44%)
-- **Education:** Graduates largest group (45%), Basic smallest (2%)
-- **Age:** Majority aged 29–40; distribution is slightly right-skewed
-- **Income:** Multimodal distribution — peaks at <£20k, ~£40k, and ~£70k, suggesting distinct income segments in the customer base
-- **Loyalty points:** Right-skewed distribution; 266 customers (13%) are high-value outliers above 3,200 points
-
-**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly — a useful signal for model selection.
 ---
 ### 3. Predictive Modelling
 

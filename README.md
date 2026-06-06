@@ -158,45 +158,7 @@ Analysis conducted on unique customers (782 rows) found:
 * Spending score showed a stronger relationship with loyalty points than gender or education
 
 >**Key finding:** Loyalty points are strongly correlated with spending score and income. The relationship is broadly linear up to a spending score of ~60, beyond which variance increases significantly - a useful signal for model selection.
----
 
----
-### 3. Predictive Modelling
-
-Predictive modelling was used to assess whether loyalty points could be estimated from customer attributes.
-
-Models explored included:
-
-| Model Type                      | Purpose                                                      |
-| ------------------------------- | ------------------------------------------------------------ |
-| Linear Regression               | Predict loyalty points using spending score, income, and age |
-| Decision Trees                  | Explore non-linear customer value patterns                   |
-| Multiple Linear Regression in R | Build a more interpretable statistical model                 |
-| Spline Regression               | Test whether non-linear relationships improved model fit     |
-
-The core predictive features were:
-
-| Feature          | Role                                     |
-| ---------------- | ---------------------------------------- |
-| `spending_score` | Primary behavioural predictor            |
-| `income`         | Customer value / affordability predictor |
-| `age`            | Demographic predictor                    |
-
-The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
-
-Diagnostic work included:
-
-* Train/test split
-* Residual analysis
-* RMSE and MAE evaluation
-* R² assessment
-* Multicollinearity checks
-* Normality testing
-* Heteroscedasticity checks
-* Robust standard error consideration
-
-The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
----
 ---
 ### 3. Regression Analysis (Python & R)
 
@@ -235,7 +197,42 @@ Three decision tree models (A, B, C) were trained and evaluated unpruned:
 **Feature importance (pruned tree):** Income (0.525) and spending_score (0.475) dominate; age contributes negligibly. A Random Forest was subsequently built, at which point age emerged as a slightly more useful predictor (importance 0.017 in the ensemble versus 0.0 in the pruned tree).
 
 ---
+### 3. Predictive Modelling
 
+Predictive modelling was used to assess whether loyalty points could be estimated from customer attributes.
+
+Models explored included:
+
+| Model Type                      | Purpose                                                      |
+| ------------------------------- | ------------------------------------------------------------ |
+| Linear Regression               | Predict loyalty points using spending score, income, and age |
+| Decision Trees                  | Explore non-linear customer value patterns                   |
+| Multiple Linear Regression in R | Build a more interpretable statistical model                 |
+| Spline Regression               | Test whether non-linear relationships improved model fit     |
+
+The core predictive features were:
+
+| Feature          | Role                                     |
+| ---------------- | ---------------------------------------- |
+| `spending_score` | Primary behavioural predictor            |
+| `income`         | Customer value / affordability predictor |
+| `age`            | Demographic predictor                    |
+
+The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
+
+Diagnostic work included:
+
+* Train/test split
+* Residual analysis
+* RMSE and MAE evaluation
+* R² assessment
+* Multicollinearity checks
+* Normality testing
+* Heteroscedasticity checks
+* Robust standard error consideration
+
+The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
+---
 ### 4. Customer Segmentation
 
 K-Means clustering was used to identify customer groups based on income and spending behaviour.

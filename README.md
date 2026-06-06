@@ -162,6 +162,27 @@ Analysis conducted on unique customers (782 rows) found:
 ---
 ### 3. Regression Analysis (Python & R)
 
+Predictive modelling was used to assess whether loyalty points could be estimated from customer attributes.
+
+Models explored included:
+
+| Model Type                      | Purpose                                                      |
+| ------------------------------- | ------------------------------------------------------------ |
+| Linear Regression               | Predict loyalty points using spending score, income, and age |
+| Decision Trees                  | Explore non-linear customer value patterns                   |
+| Multiple Linear Regression in R | Build a more interpretable statistical model                 |
+| Spline Regression               | Test whether non-linear relationships improved model fit     |
+
+The core predictive features were:
+
+| Feature          | Role                                     |
+| ---------------- | ---------------------------------------- |
+| `spending_score` | Primary behavioural predictor            |
+| `income`         | Customer value / affordability predictor |
+| `age`            | Demographic predictor                    |
+
+The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
+
 **Python — baseline models:**
 - Three baseline linear regression models built using age, income, and spending score as predictors of loyalty points
 - Residual analysis and scatter plots used to inspect model fit
@@ -199,26 +220,6 @@ Three decision tree models (A, B, C) were trained and evaluated unpruned:
 ---
 ### 3. Predictive Modelling
 
-Predictive modelling was used to assess whether loyalty points could be estimated from customer attributes.
-
-Models explored included:
-
-| Model Type                      | Purpose                                                      |
-| ------------------------------- | ------------------------------------------------------------ |
-| Linear Regression               | Predict loyalty points using spending score, income, and age |
-| Decision Trees                  | Explore non-linear customer value patterns                   |
-| Multiple Linear Regression in R | Build a more interpretable statistical model                 |
-| Spline Regression               | Test whether non-linear relationships improved model fit     |
-
-The core predictive features were:
-
-| Feature          | Role                                     |
-| ---------------- | ---------------------------------------- |
-| `spending_score` | Primary behavioural predictor            |
-| `income`         | Customer value / affordability predictor |
-| `age`            | Demographic predictor                    |
-
-The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
 
 Diagnostic work included:
 

@@ -196,6 +196,43 @@ Diagnostic work included:
 * Robust standard error consideration
 
 The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
+---
+---
+### 3. Regression Analysis (Python & R)
+
+**Python — baseline models:**
+- Three baseline linear regression models built using age, income, and spending score as predictors of loyalty points
+- Residual analysis and scatter plots used to inspect model fit
+- Correlation structure confirmed income and spending score as the dominant predictors
+
+**R — advanced regression:**
+- Multiple linear regression models built, including a base model and a spline model to capture non-linearity
+- **Model diagnostic tools applied:** Shapiro–Wilk (normality), Breusch–Pagan (heteroscedasticity), HC3 robust standard errors (addressing heteroscedasticity in inference)
+- Train/test splits used to report out-of-sample performance
+
+| Metric | Value |
+|--------|-------|
+| R² (Python linear) | 0.839–0.844 |
+| Out-of-sample RMSE | Reported from R train/test split |
+| Key predictors | spending_score, income (age minor contributor) |
+
+**Model selection rationale:** The linear model was recommended for operational use over the decision tree — it is interpretable, communicates well to non-technical stakeholders, and performs robustly on out-of-sample data. Spline models offered marginal improvement but at the cost of explainability.
+
+### 4. Decision Trees & Random Forest (Python)
+
+Three decision tree models (A, B, C) were trained and evaluated unpruned:
+
+| Metric | Model A | Model B | Model C |
+|--------|---------|---------|---------|
+| Train MAE | 0.0 | 0.0 | 69.16 |
+| Test MAE | 39.25 | 26.18 | 83.27 |
+| Train R² | 1.000 | 1.000 | 0.989 |
+| Test R² | 0.994 | 0.996 | 0.984 |
+| RMSE (Test) | 100.98 | 79.94 | 161.55 |
+
+**Model B selected** as the best all-rounder despite overfitting in the unpruned form. Model B was pruned to max depth = 3, balancing performance against overfitting.
+
+**Feature importance (pruned tree):** Income (0.525) and spending_score (0.475) dominate; age contributes negligibly. A Random Forest was subsequently built, at which point age emerged as a slightly more useful predictor (importance 0.017 in the ensemble versus 0.0 in the pruned tree).
 
 ---
 

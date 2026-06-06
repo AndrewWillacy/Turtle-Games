@@ -219,10 +219,6 @@ Three decision tree models (A, B, C) were trained and evaluated unpruned:
 
 **Feature importance (pruned tree):** Income (0.525) and spending_score (0.475) dominate; age contributes negligibly. A Random Forest was subsequently built, at which point age emerged as a slightly more useful predictor (importance 0.017 in the ensemble versus 0.0 in the pruned tree).
 
----
-### 3. Predictive Modelling
-
-
 Diagnostic work included:
 
 * Train/test split
@@ -234,8 +230,9 @@ Diagnostic work included:
 * Heteroscedasticity checks
 * Robust standard error consideration
 
-The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
+> The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
 ---
+
 ### 4. Customer Segmentation
 
 K-Means clustering was used to identify customer groups based on income and spending behaviour.

@@ -181,7 +181,6 @@ The core predictive features were:
 | `income`         | Customer value / affordability predictor |
 | `age`            | Demographic predictor                    |
 
-The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
 
 **Python — baseline models:**
 - Three baseline linear regression models built using age, income, and spending score as predictors of loyalty points
@@ -201,6 +200,9 @@ The R-based multiple linear regression model achieved strong explanatory power, 
 
 **Model selection rationale:** The linear model was recommended for operational use over the decision tree — it is interpretable, communicates well to non-technical stakeholders, and performs robustly on out-of-sample data. Spline models offered marginal improvement but at the cost of explainability.
 
+> The R-based multiple linear regression model achieved strong explanatory power, with the model explaining approximately **84% of the variance** in loyalty points.
+
+---
 ### 4. Decision Trees & Random Forest (Python)
 
 Three decision tree models (A, B, C) were trained and evaluated unpruned:

@@ -266,7 +266,7 @@ Both Elbow and Silhouette methods agreed on k=5.
 
 **3D clustering (income, spending_score, age, k=6):**
 
-Adding age as a third variable and re-running Elbow/Silhouette methods produced k=6. The 3D model adds age-based nuance — distinguishing younger affluent high spenders from older mid-age frugal spenders — at the cost of some interpretability. The k=5 model was recommended for marketing use; k=6 retained for analytical depth.
+> Adding age as a third variable and re-running Elbow/Silhouette methods produced k=6. The 3D model adds age-based nuance — distinguishing younger affluent high spenders from older mid-age frugal spenders — at the cost of some interpretability. The k=5 model was recommended for marketing use; k=6 retained for analytical depth.
 ---
 ### 5. Sentiment & Review Text Analysis
 

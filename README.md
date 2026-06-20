@@ -273,7 +273,7 @@ Both Elbow and Silhouette methods agreed on k=5.
 
 
 ---
-### 6. Sentiment & Review Text Analysis
+### 6. Sentiment & Review Text Analysis (Python)
 
 Customer review text was analysed to understand: 
 
@@ -298,19 +298,8 @@ Key review insights included:
 > Review text could be used to support marketing language and operational improvement priorities
 
 ---
-### 6. NLP Sentiment Analysis (Python)
 
-Customer review text was processed and analysed:
-
-- **Preprocessing:** Text lowercased, punctuation, numerics and stop words removed, text tokenised
-- **Outputs:** Word cloud, most common words, top positive and negative words, sentiment polarity histogram
-- **Overall sentiment:** Positively skewed — the majority of reviews are positive or neutral; a smaller but significant tail of negative reviews exists
-- **Positive themes:** Family, fun, quality, kids, playing, love — consistent with a family-focused product range
-- **Negative themes:** Shipping delays and missing product pieces were the most consistently flagged issues in negative reviews
-
----
-
-### 8. R-Based Statistical Analysis
+### 7. R-Based Statistical Analysis
 
 R was used to extend the analysis through deeper exploratory analysis, statistical diagnostics, and model evaluation.
 

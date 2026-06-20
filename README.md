@@ -250,6 +250,29 @@ The segmentation revealed:
 The segmentation was designed to support practical marketing actions rather than purely statistical grouping.
 
 ---
+
+
+### 5. K-Means Clustering (Python)
+
+**2D clustering (income and spending_score, k=5):**
+
+Both Elbow and Silhouette methods agreed on k=5.
+
+| Cluster | Segment Name | Income Profile | Spending Score | Size (n) | Key Insight |
+|---------|-------------|---------------|----------------|----------|-------------|
+| 0 | Affluent Big Spenders | High (~£73k) | High (82–97) | 356 | Key profit drivers |
+| 1 | Moderate Mid-Market | Middle (~£44k) | Medium (34–61) | 774 | Largest group; stable, average spenders |
+| 2 | Affluent Low Spenders | High (~£75k) | Very Low (1–39) | 330 | High potential; rich but disengaged |
+| 3 | Budget High Spenders | Low (~£20k) | High (79–99) | 269 | Value-driven; loyal despite low income |
+| 4 | Low Income Low Spenders | Low (~£20k) | Low (3–40) | 271 | Least commercially valuable segment |
+
+**3D clustering (income, spending_score, age, k=6):**
+
+Adding age as a third variable and re-running Elbow/Silhouette methods produced k=6. The 3D model adds age-based nuance — distinguishing younger affluent high spenders from older mid-age frugal spenders — at the cost of some interpretability. The k=5 model was recommended for marketing use; k=6 retained for analytical depth.
+
+---
+
+
 ### 6. K-Means Clustering (Python)
 
 **2D clustering (income and spending_score, k=5):**

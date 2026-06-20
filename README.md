@@ -273,7 +273,7 @@ Both Elbow and Silhouette methods agreed on k=5.
 
 
 ---
-### 7. Sentiment & Review Text Analysis
+### 6. Sentiment & Review Text Analysis
 
 Customer review text was analysed to understand sentiment, recurring customer themes, and potential operational improvement areas.
 
@@ -292,6 +292,17 @@ Key review insights included:
 * Customers frequently referenced family-friendly play, quality, and ease of use
 * Negative reviews highlighted issues such as missing pieces and shipping problems
 * Review text could be used to support marketing language and operational improvement priorities
+
+---
+### 6. NLP Sentiment Analysis (Python)
+
+Customer review text was processed and analysed:
+
+- **Preprocessing:** Text lowercased, punctuation, numerics and stop words removed, text tokenised
+- **Outputs:** Word cloud, most common words, top positive and negative words, sentiment polarity histogram
+- **Overall sentiment:** Positively skewed — the majority of reviews are positive or neutral; a smaller but significant tail of negative reviews exists
+- **Positive themes:** Family, fun, quality, kids, playing, love — consistent with a family-focused product range
+- **Negative themes:** Shipping delays and missing product pieces were the most consistently flagged issues in negative reviews
 
 ---
 

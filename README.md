@@ -233,7 +233,7 @@ Diagnostic work included:
 > The analysis found that spending score was the strongest practical predictor of loyalty points, while income also contributed meaningfully.
 ---
 
-### 4. Customer Segmentation
+### 5. Customer Segmentation
 
 K-Means clustering was used to identify customer groups based on income and spending behaviour.
 
@@ -250,7 +250,7 @@ The segmentation revealed:
 The segmentation was designed to support practical marketing actions rather than purely statistical grouping.
 
 ---
-### 5. K-Means Clustering (Python)
+### 6. K-Means Clustering (Python)
 
 **2D clustering (income and spending_score, k=5):**
 
@@ -268,7 +268,7 @@ Both Elbow and Silhouette methods agreed on k=5.
 
 > Adding age as a third variable and re-running Elbow/Silhouette methods produced k=6. The 3D model adds age-based nuance — distinguishing younger affluent high spenders from older mid-age frugal spenders — at the cost of some interpretability. The k=5 model was recommended for marketing use; k=6 retained for analytical depth.
 ---
-### 5. Sentiment & Review Text Analysis
+### 7. Sentiment & Review Text Analysis
 
 Customer review text was analysed to understand sentiment, recurring customer themes, and potential operational improvement areas.
 
@@ -290,7 +290,7 @@ Key review insights included:
 
 ---
 
-### 6. R-Based Statistical Analysis
+### 8. R-Based Statistical Analysis
 
 R was used to extend the analysis through deeper exploratory analysis, statistical diagnostics, and model evaluation.
 

@@ -342,6 +342,25 @@ Spending score showed the strongest relationship with loyalty points, outperform
 Focus loyalty programme strategy on spending behaviour rather than demographic targeting alone.
 
 ---
+## Key Findings
+
+### Loyalty Point Drivers
+
+| Finding | Detail |
+|---------|--------|
+| Primary predictors | Spending score and income explain the large majority of loyalty point variance |
+| Distribution | Right-skewed; 266 customers (13%) are high-value outliers above 3,200 points |
+| Predictive model | Linear regression R² = 0.839–0.844; robust, interpretable, recommended for operational use |
+| Non-linearity | Relationship breaks down above spending score ~60; variance increases significantly at high scores |
+
+### Customer Segments (k=5)
+
+- **Affluent Low Spenders** (330 customers) represent the highest growth opportunity — high income, very low engagement
+- **Budget High Spenders** (269 customers) demonstrate strong loyalty despite limited income — value-driven behaviour worth protecting
+- **Mid-Market** (774 customers, 40% of the base) are the stable core — reliable but offer limited incremental value without targeted nudges
+
+---
+---
 
 ### Finding 2: High-Value Loyalty Outliers Represent a VIP Segment
 

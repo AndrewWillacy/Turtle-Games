@@ -435,49 +435,43 @@ These scenarios translated model outputs into practical customer engagement stra
 
 Several limitations were identified during the analysis:
 
-* The dataset was relatively small at 2,000 review records and 782 unique customers
-* The calculation method for spending score was unknown
-* The method for accruing loyalty points was not fully defined
+* The dataset was relatively small at 2,000 review records and 782 unique customers - imited sample for generalisation; behaviours such as tenure, promotional exposure, and seasonality are not captured
+* The calculation method for spending score was unknown - This limits interpretation of the variable and prevents understanding of what drives it
+* The method for accruing loyalty points was not fully defined - how loyalty points are earned is not specified, limiting the practical application of the predictive model
 * Customer tenure, seasonality, promotion exposure, product category, and purchase frequency were unavailable
-* Product numbers were not mapped to meaningful product categories
+* Product numbers were not mapped to meaningful product categories - product numbers are present but categories are not defined, making product-level sentiment analysis impossible
 * Review text was available, but more structured sentiment labels would improve analysis
 * Some high-value outliers may represent genuine VIP customers or unusual behaviour requiring further validation
+* Review dataset is unbalanced - 2,000 reviews from 782 customers means some customers are disproportionately represented in the sentiment analysis ie Some customer wrote multiple reviews, others none
+* Review platform unknown - where and how reviews were collected is not documented, which could affect representativeness
 
 Despite these limitations, the analysis produced a strong customer value framework suitable for marketing and loyalty strategy development.
 
 ---
-## Limitations
-
-- **Spending score unknown** — the formula for calculating the spending score is not documented. This limits interpretation of the variable and prevents understanding of what drives it
-- **Loyalty point accrual unknown** — how loyalty points are earned is not specified, limiting the practical application of the predictive model
-- **Small dataset** — 782 unique customers is a limited sample for generalisation; behaviours such as tenure, promotional exposure, and seasonality are not captured
-- **Product data opaque** — product numbers are present but categories are not defined, making product-level sentiment analysis impossible
-- **Review dataset is unbalanced** — 2,000 reviews from 782 customers means some customers are disproportionately represented in the sentiment analysis
-- **Review platform unknown** — where and how reviews were collected is not documented, which could affect representativeness
----
----
-
-
-
-
 
 ## Future Steps
 
 Potential future enhancements include:
 
 * Customer lifetime value (CLV) modelling
-* Product-level sentiment analysis
-* Loyalty churn prediction
-* Campaign response modelling
-* Integration of purchase frequency and tenure data
+* Product-level sentiment analysis - are particular products more likely to result in high or low sentiment
+* Loyalty churn prediction - how does loyalty affect customer churn
+* Campaign response modelling - Once VIP and retention campaigns are implemented, monitor their progress and effectiveness
+* Integration of purchase frequency and tenure data - incorporate customer tenure and recency of purchase to build a more complete RFM (Recency, Frequency, Monetary) model
 * A/B testing framework for loyalty campaigns
 * More advanced NLP sentiment modelling
-* Product category mapping for review analysis
+* Product category mapping for review analysis -map product numbers to product categories to enable product-level sentiment and sales analysis
+* Extended demographic breakdowns - analyse reviews and loyalty patterns by individual product, gender, age group, and education level
 * Segment-level dashboard development
 * Monthly monitoring of model performance using RMSE, MAE, and R²
 * Further testing of income-spending interaction effects
 
 ---
+
+
+
+
+
 ## Business Recommendations
 
 - **Activate Affluent Low Spenders** — run targeted awareness and re-engagement campaigns for the high-income, low-spend segment (Cluster 2). They have the means to spend more; the question is why they don't
@@ -490,15 +484,7 @@ Potential future enhancements include:
 ---
 
 
----
 
-## Further Analysis
-
-- **Product categorisation** — map product numbers to product categories to enable product-level sentiment and sales analysis
-- **Spending score reverse-engineering** — investigate whether spending score can be decomposed from other available variables to improve model interpretability
-- **Extended demographic breakdowns** — analyse reviews and loyalty patterns by individual product, gender, age group, and education level
-- **Tenure and recency** — incorporate customer tenure and recency of purchase to build a more complete RFM (Recency, Frequency, Monetary) model
-- **Deeper R modelling** — explore additional spline configurations or mixed-effects models to improve out-of-sample performance on the high-variance tail (spending score >60)
 
 ---
 

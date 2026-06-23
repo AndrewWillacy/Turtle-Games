@@ -446,6 +446,20 @@ Several limitations were identified during the analysis:
 Despite these limitations, the analysis produced a strong customer value framework suitable for marketing and loyalty strategy development.
 
 ---
+## Limitations
+
+- **Spending score unknown** — the formula for calculating the spending score is not documented. This limits interpretation of the variable and prevents understanding of what drives it
+- **Loyalty point accrual unknown** — how loyalty points are earned is not specified, limiting the practical application of the predictive model
+- **Small dataset** — 782 unique customers is a limited sample for generalisation; behaviours such as tenure, promotional exposure, and seasonality are not captured
+- **Product data opaque** — product numbers are present but categories are not defined, making product-level sentiment analysis impossible
+- **Review dataset is unbalanced** — 2,000 reviews from 782 customers means some customers are disproportionately represented in the sentiment analysis
+- **Review platform unknown** — where and how reviews were collected is not documented, which could affect representativeness
+---
+---
+
+
+
+
 
 ## Future Steps
 
@@ -475,14 +489,6 @@ Potential future enhancements include:
 
 ---
 
-## Limitations
-
-- **Spending score unknown** — the formula for calculating the spending score is not documented. This limits interpretation of the variable and prevents understanding of what drives it
-- **Loyalty point accrual unknown** — how loyalty points are earned is not specified, limiting the practical application of the predictive model
-- **Small dataset** — 782 unique customers is a limited sample for generalisation; behaviours such as tenure, promotional exposure, and seasonality are not captured
-- **Product data opaque** — product numbers are present but categories are not defined, making product-level sentiment analysis impossible
-- **Review dataset is unbalanced** — 2,000 reviews from 782 customers means some customers are disproportionately represented in the sentiment analysis
-- **Review platform unknown** — where and how reviews were collected is not documented, which could affect representativeness
 
 ---
 

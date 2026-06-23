@@ -327,6 +327,13 @@ The R analysis confirmed several Python findings:
 
 ## Key Findings & Business Recommendations
 
+| Finding | Detail |
+|---------|--------|
+| Primary predictors | Spending score and income explain the large majority of loyalty point variance |
+| Distribution | Right-skewed; 266 customers (13%) are high-value outliers above 3,200 points |
+| Predictive model | Linear regression R² = 0.839–0.844; robust, interpretable, recommended for operational use |
+| Non-linearity | Relationship breaks down above spending score ~60; variance increases significantly at high scores |
+
 ### Finding 1: Spending Behaviour is the Strongest Loyalty Driver
 
 Spending score showed the strongest relationship with loyalty points, outperforming demographic variables such as gender and education.
@@ -339,27 +346,8 @@ Spending score showed the strongest relationship with loyalty points, outperform
 
 #### Recommendation
 
-Focus loyalty programme strategy on spending behaviour rather than demographic targeting alone.
+> Focus loyalty programme strategy on spending behaviour rather than demographic targeting alone.
 
----
-## Key Findings
-
-### Loyalty Point Drivers
-
-| Finding | Detail |
-|---------|--------|
-| Primary predictors | Spending score and income explain the large majority of loyalty point variance |
-| Distribution | Right-skewed; 266 customers (13%) are high-value outliers above 3,200 points |
-| Predictive model | Linear regression R² = 0.839–0.844; robust, interpretable, recommended for operational use |
-| Non-linearity | Relationship breaks down above spending score ~60; variance increases significantly at high scores |
-
-### Customer Segments (k=5)
-
-- **Affluent Low Spenders** (330 customers) represent the highest growth opportunity — high income, very low engagement
-- **Budget High Spenders** (269 customers) demonstrate strong loyalty despite limited income — value-driven behaviour worth protecting
-- **Mid-Market** (774 customers, 40% of the base) are the stable core — reliable but offer limited incremental value without targeted nudges
-
----
 ---
 
 ### Finding 2: High-Value Loyalty Outliers Represent a VIP Segment
@@ -370,7 +358,7 @@ Customers with loyalty points above approximately 3,200 represented a premium va
 
 #### Recommendation
 
-Create a VIP loyalty track for high-value customers, including:
+> Create a VIP loyalty track for high-value customers, including:
 
 * Early product access
 * Exclusive events
@@ -386,7 +374,7 @@ Some affluent customers had relatively low spending scores, suggesting untapped 
 
 #### Recommendation
 
-Run activation campaigns for high-income but low-spend customers using:
+> Run activation campaigns for high-income but low-spend customers using:
 
 * Awareness campaigns
 * Premium bundles
@@ -401,7 +389,7 @@ Mid-to-high spending customers represented a realistic opportunity to increase b
 
 #### Recommendation
 
-Develop targeted campaigns focused on:
+> Develop targeted campaigns focused on:
 
 * Cross-selling
 * Personalised bundles
@@ -424,11 +412,19 @@ Customer reviews were generally positive, but negative reviews highlighted pract
 
 #### Recommendation
 
-Use review sentiment as an ongoing customer listening tool to inform both marketing content and operational improvement priorities.
+> Use review sentiment as an ongoing customer listening tool to inform both marketing content and operational improvement priorities.
 
 ---
+### Customer Segments (k=5)
 
+- **Affluent Low Spenders** (330 customers) represent the highest growth opportunity — high income, very low engagement
+- **Budget High Spenders** (269 customers) demonstrate strong loyalty despite limited income — value-driven behaviour worth protecting
+- **Mid-Market** (774 customers, 40% of the base) are the stable core — reliable but offer limited incremental value without targeted nudges
 ## Predictive Customer Scenarios
+
+---
+---
+
 
 The R model was used to generate practical customer scenarios showing how different combinations of age, income, and spending score could translate into predicted loyalty point values.
 

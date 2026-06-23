@@ -431,6 +431,17 @@ These scenarios translated model outputs into practical customer engagement stra
 
 ---
 
+## Business Recommendations
+
+- **Activate Affluent Low Spenders** — run targeted awareness and re-engagement campaigns for the high-income, low-spend segment (Cluster 2). They have the means to spend more; the question is why they don't
+- **VIP programme for outliers** — customers with ≥3,200 loyalty points represent premium value. Early-access drops, exclusive events, and tiered rewards would deepen their engagement
+- **Protect Budget High Spenders** — these customers spend proportionally despite limited income; they are brand-loyal and should not be deprioritised in favour of wealthier segments
+- **Fix the operational pain points** — missing pieces and shipping issues appear consistently in negative reviews. These are solvable problems that are actively undermining an otherwise positive brand perception
+- **Lean into the family-friendly message** — "fun, quality, easy for kids" themes dominate positive sentiment. Marketing campaigns should amplify this, not dilute it
+- **Deploy the linear model operationally** — use R²=0.839+ model to predict loyalty point accumulation for new customers and support targeted reward timing
+
+---
+
 ## Limitations
 
 Several limitations were identified during the analysis:
@@ -467,34 +478,6 @@ Potential future enhancements include:
 * Further testing of income-spending interaction effects
 
 ---
-
-
-
-
-
-## Business Recommendations
-
-- **Activate Affluent Low Spenders** — run targeted awareness and re-engagement campaigns for the high-income, low-spend segment (Cluster 2). They have the means to spend more; the question is why they don't
-- **VIP programme for outliers** — customers with ≥3,200 loyalty points represent premium value. Early-access drops, exclusive events, and tiered rewards would deepen their engagement
-- **Protect Budget High Spenders** — these customers spend proportionally despite limited income; they are brand-loyal and should not be deprioritised in favour of wealthier segments
-- **Fix the operational pain points** — missing pieces and shipping issues appear consistently in negative reviews. These are solvable problems that are actively undermining an otherwise positive brand perception
-- **Lean into the family-friendly message** — "fun, quality, easy for kids" themes dominate positive sentiment. Marketing campaigns should amplify this, not dilute it
-- **Deploy the linear model operationally** — use R²=0.839+ model to predict loyalty point accumulation for new customers and support targeted reward timing
-
----
-
-
-
-
----
-
-
-
-
-
-
-
-
 
 ## Deliverables
 

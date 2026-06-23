@@ -415,16 +415,6 @@ Customer reviews were generally positive, but negative reviews highlighted pract
 > Use review sentiment as an ongoing customer listening tool to inform both marketing content and operational improvement priorities.
 
 ---
-### Customer Segments (k=5)
-
-- **Affluent Low Spenders** (330 customers) represent the highest growth opportunity — high income, very low engagement
-- **Budget High Spenders** (269 customers) demonstrate strong loyalty despite limited income — value-driven behaviour worth protecting
-- **Mid-Market** (774 customers, 40% of the base) are the stable core — reliable but offer limited incremental value without targeted nudges
-## Predictive Customer Scenarios
-
----
----
-
 
 The R model was used to generate practical customer scenarios showing how different combinations of age, income, and spending score could translate into predicted loyalty point values.
 
@@ -474,6 +464,45 @@ Potential future enhancements include:
 * Further testing of income-spending interaction effects
 
 ---
+## Business Recommendations
+
+- **Activate Affluent Low Spenders** — run targeted awareness and re-engagement campaigns for the high-income, low-spend segment (Cluster 2). They have the means to spend more; the question is why they don't
+- **VIP programme for outliers** — customers with ≥3,200 loyalty points represent premium value. Early-access drops, exclusive events, and tiered rewards would deepen their engagement
+- **Protect Budget High Spenders** — these customers spend proportionally despite limited income; they are brand-loyal and should not be deprioritised in favour of wealthier segments
+- **Fix the operational pain points** — missing pieces and shipping issues appear consistently in negative reviews. These are solvable problems that are actively undermining an otherwise positive brand perception
+- **Lean into the family-friendly message** — "fun, quality, easy for kids" themes dominate positive sentiment. Marketing campaigns should amplify this, not dilute it
+- **Deploy the linear model operationally** — use R²=0.839+ model to predict loyalty point accumulation for new customers and support targeted reward timing
+
+---
+
+## Limitations
+
+- **Spending score unknown** — the formula for calculating the spending score is not documented. This limits interpretation of the variable and prevents understanding of what drives it
+- **Loyalty point accrual unknown** — how loyalty points are earned is not specified, limiting the practical application of the predictive model
+- **Small dataset** — 782 unique customers is a limited sample for generalisation; behaviours such as tenure, promotional exposure, and seasonality are not captured
+- **Product data opaque** — product numbers are present but categories are not defined, making product-level sentiment analysis impossible
+- **Review dataset is unbalanced** — 2,000 reviews from 782 customers means some customers are disproportionately represented in the sentiment analysis
+- **Review platform unknown** — where and how reviews were collected is not documented, which could affect representativeness
+
+---
+
+## Further Analysis
+
+- **Product categorisation** — map product numbers to product categories to enable product-level sentiment and sales analysis
+- **Spending score reverse-engineering** — investigate whether spending score can be decomposed from other available variables to improve model interpretability
+- **Extended demographic breakdowns** — analyse reviews and loyalty patterns by individual product, gender, age group, and education level
+- **Tenure and recency** — incorporate customer tenure and recency of purchase to build a more complete RFM (Recency, Frequency, Monetary) model
+- **Deeper R modelling** — explore additional spline configurations or mixed-effects models to improve out-of-sample performance on the high-variance tail (spending score >60)
+
+---
+
+
+
+
+
+
+
+
 
 ## Deliverables
 

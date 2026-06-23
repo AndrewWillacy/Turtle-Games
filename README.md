@@ -182,12 +182,12 @@ The core predictive features were:
 | `age`            | Demographic predictor                    |
 
 
-**Python — baseline models:**
+**Python: baseline models:**
 - Three baseline linear regression models built using age, income, and spending score as predictors of loyalty points
 - Residual analysis and scatter plots used to inspect model fit
 - Correlation structure confirmed income and spending score as the dominant predictors
 
-**R — advanced regression:**
+**R: advanced regression:**
 - Multiple linear regression models built, including a base model and a spline model to capture non-linearity
 - **Model diagnostic tools applied:** Shapiro–Wilk (normality), Breusch–Pagan (heteroscedasticity), HC3 robust standard errors (addressing heteroscedasticity in inference)
 - Train/test splits used to report out-of-sample performance

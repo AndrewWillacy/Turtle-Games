@@ -476,6 +476,7 @@ Potential future enhancements include:
 * Segment-level dashboard development
 * Monthly monitoring of model performance using RMSE, MAE, and R²
 * Further testing of income-spending interaction effects
+* Remove common words from NLP sentiment analysis - eg The word 'game' dominates but doesn't add to the analysis
 
 ---
 

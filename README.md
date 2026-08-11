@@ -235,7 +235,7 @@ Diagnostic work included:
 
 ### 5. Customer Segmentation (k-Means)
 
-K-Means clustering was used to identify customer groups based on income and spending behaviour.
+K-means clustering was performed on the 2,000 review-level observations. As the dataset contains 782 unique customers, clustering was also tested at the unique-customer level as a robustness check, with no material change to the resulting segmentation.
 
 The clustering analysis explored both five and six-cluster solutions, supported by elbow and silhouette methods.
 
